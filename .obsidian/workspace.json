@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "ab21876ce886b81b",
+    "type": "split",
+    "children": [
+      {
+        "id": "368985cd5fa08b42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a447fbe021805a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Assets of an Organisation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59c61838b0a984db",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b2d569791a1a182f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e74df06190bd2f9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60e077388e02f09f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60be8b5941b505c2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4ff955a31e88303e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "08767b542e8c6158",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98fce2e09e57ea36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Assets of an Organisation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5
+  },
+  "right": {
+    "id": "bc56875bcc1ee595",
+    "type": "split",
+    "children": [
+      {
+        "id": "31073f65066e2a3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98148b89757ce62a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Assets of an Organisation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "145649c3116bd4f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Assets of an Organisation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90a0ef37a0e090cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1c1f5328428b5d8a",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "df51b694ccd0ef61",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "graph:Open graph view": false
+    }
+  },
+  "active": "1c1f5328428b5d8a",
+  "lastOpenFiles": [
+    "Assets of an Organisation.md",
+    "CIA Triad.md",
+    "Data Classification.md",
+    "Destroying Sensitive Data.md",
+    "Intellectual Property.md",
+    "Threats.md",
+    "Tracing or hiding Sensitive Data.md",
+    "Untitled"
+  ]
+}
