@@ -4,37 +4,37 @@ A security infrastructure should protect the
 - availability
 of assets.
 
-## Confidentiality
+## 1 Confidentiality
 Prevention of unauthorized access to data in storage, in transit and in use.
 
 > [!Example]
 > - encryption
 > - access control
 
-## Integrity
+## 2 Integrity
 Protection of reliability and correctness of data. Prevents unauthorized alternation of data.
 
-### Data integrity
+### 2.1 Data integrity
 Implies that information is known to be good.
 
-### System Integrity
+### 2.2 System Integrity
 Implies that a system will work as intended.
 
 > [!Example]
 > - hash verification
 > - intrusion detection
 
-## Availability
+## 3 Availability
 Authorized subjects are granted timely and uninterrupted access to the data.
 
 > [!Example]
 > - Redundancy and scalability
 > - backups
 
-## Nonrepudiation
+## 4 Nonrepudiation
 Ensures that a subject which has caused an event is not able to deny having caused said event.
 
-## Accountability
+## 5 Accountability
 Being responsible for actions and results.
 
 > [!Example]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assets of an Organisation.md",
+                "file": "Risk Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Threats.md",
+                "file": "CIA Triad.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intellectual Property.md"
+                "file": "Risk Management.md"
               }
             }
           }
@@ -126,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intellectual Property.md",
+                "file": "Risk Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intellectual Property.md",
+                "file": "Risk Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,16 +193,16 @@
       "graph:Open graph view": false
     }
   },
-  "active": "d7f9a45b6c611a41",
+  "active": "3a447fbe021805a1",
   "lastOpenFiles": [
-    "Risk Management.md",
-    "Threats.md",
+    "Tracing or hiding Sensitive Data.md",
     "Assets of an Organisation.md",
+    "Intellectual Property.md",
+    "CIA Triad.md",
     "Data Classification.md",
     "Destroying Sensitive Data.md",
-    "Intellectual Property.md",
-    "Tracing or hiding Sensitive Data.md",
-    "CIA Triad.md",
+    "Threats.md",
+    "Risk Management.md",
     "Untitled"
   ]
 }
