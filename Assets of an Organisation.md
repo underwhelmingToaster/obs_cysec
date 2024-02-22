@@ -1,24 +1,24 @@
 > [!Summary]
 > An asset is anything within an environment that should be protected
 
-## Types of Assets
-### Information
+## 1 Types of Assets
+### 1.1 Information
 - All data
 
-### Systems
+### 1.2 Systems
 - IT Systems that provide services (servers)
 - Devices (Laptops, Phones, Printers)
 
-### Facilities
+### 1.3 Facilities
 - Physical Locations
 
-### Personnel
+### 1.4 Personnel
 - Staff
 
-### [[Intellectual Property]]
+### 1.5 [[Intellectual Property]]
 - Non material properties (e.g. brand names, creative output, secret recepies)
 
-## Loss of an asset
+## 2 Loss of an asset
 The loss or disclosure of an asset could result in:
 - an overall security compromise
 - loss of productivity

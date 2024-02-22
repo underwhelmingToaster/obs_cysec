@@ -23,12 +23,28 @@
             "id": "59c61838b0a984db",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Threats.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7f9a45b6c611a41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intellectual Property.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets of an Organisation.md"
+                "file": "Intellectual Property.md"
               }
             }
           }
@@ -110,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets of an Organisation.md",
+                "file": "Intellectual Property.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets of an Organisation.md",
+                "file": "Intellectual Property.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,15 +194,16 @@
       "graph:Open graph view": false
     }
   },
-  "active": "1c1f5328428b5d8a",
+  "active": "d7f9a45b6c611a41",
   "lastOpenFiles": [
+    "Risk Management.md",
+    "Threats.md",
     "Assets of an Organisation.md",
-    "CIA Triad.md",
     "Data Classification.md",
     "Destroying Sensitive Data.md",
     "Intellectual Property.md",
-    "Threats.md",
     "Tracing or hiding Sensitive Data.md",
+    "CIA Triad.md",
     "Untitled"
   ]
 }
