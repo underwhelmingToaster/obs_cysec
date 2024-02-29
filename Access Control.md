@@ -59,32 +59,32 @@ Multi-Factor should always be of 2 or more different types, or it will be no str
 ### 3.3 Authorization
 Authorization ensures that the requested activity or access to an object is possible given the rights and privileges assigned to the authenticated identity.
 
-### 3.4 Access control models
-#### 3.4.1 Discretionary Access Control (DAC)
+#### 3.3.1 Access control models
+##### 3.3.1.1 Discretionary Access Control (DAC)
 Every object has an owner, and the owner can grant or deny access to any other subjects. Used in NFTS etc.
 
-#### 3.4.2 Role Based Access Control
+##### 3.3.1.2 Role Based Access Control
 Users are assigned to roles, and roles are assigned privileges. Users in a role will have all privileges assigned to their role(s).
 
-#### 3.4.3 Rule Based Access Control
+##### 3.3.1.3 Rule Based Access Control
 Global rules for all users. Rules in this models are sometimes called filters or restrictions.
 
-#### 3.4.4 Attribute Based Access Control
+##### 3.3.1.4 Attribute Based Access Control
 Access to Objects are controlled by rules which can include multiple attributes. Subjects have attributes such as ID, job roles, group memberships, memberships, management level, security clearance etc. Access to an object is only granted if all attributes are acceptable.
 
-#### 3.4.5 Mandatory Access Control
+##### 3.3.1.5 Mandatory Access Control
 Each Object has a security level in an hierarchical structure (e.g. Top Secret, Confidential). Each Subject possesses a certain level in this structure as well. Subjects can only access Objects which are at or below their level in the hierarchy
 
-### 3.5 Authorization Mechanisms
+#### 3.3.2 Authorization Mechanisms
 A authorization mechanism it the principle with which access to an object is granted or denied to a subject.
 
-#### 3.5.1 Implicit Deny
+##### 3.3.2.1 Implicit Deny
 Access to an object is denied unless access is explicitly granted to a subject. Most widespread mechanism currently in use.
 
-#### 3.5.2 Constrained Surface
+##### 3.3.2.2 Constrained Surface
 Using interfaces to control what subjects can see or do. Users with full privileges have access to all parts of the application.
 
-#### 3.5.3 Access Control Matrix
+##### 3.3.2.3 Access Control Matrix
 An access control matrix is a table that includes subjects, objects, and assigned privileges.
 
 |             | file1.txt   | file2.sql | Socket s                 |
@@ -93,14 +93,20 @@ An access control matrix is a table that includes subjects, objects, and assigne
 | Bob         | -           | read      | append                   |
 | Process 294 | -           | -         | open, read, write, close |
 
-#### 3.5.4 Capability Table
+##### 3.3.2.4 Capability Table
 Same as Access Control Matrix, but focused on one service. Essentially the same as one collumn on the ACM.
 
-#### 3.5.5 Content-Dependent Control
+##### 3.3.2.5 Content-Dependent Control
 Content-Dependent Control grants subjects access based on the information an Object contains. This is normally done dynamically.
 
-#### 3.5.6 Context-Dependent Control
+##### 3.3.2.6 Context-Dependent Control
 Context-Dependent Control only grants Subject access to an Object after a certain context in the system has been reached with previous actions/events.
+
+### 3.4 Auditing
+Tracking and recording the actions a user takes. This can be used to hold subjects accountable for their actions.
+
+### 3.5 Accountability
+Holding users responsible for their actions.
 
 ## 4 Access Control Attacks
 ### 4.1 Access Aggregation Attack (passive/reconnaissance attack)
@@ -113,7 +119,7 @@ Trying out every possible combination of a password. Can be done against online 
 Instead of randomly guessing passwords, a dictionary attack uses "commonly used passwords" databases and may also "one-up" passwords (for example "password" -> "pa5sword" -> one character changed) in this dictionary.
 
 #### 4.2.2 Birthday Attacks (brute-force)
-A birthday attack focuses on finding collisions. One can reduce the success of birthday attacks by using hashing algorithms with enough bits to make collisions computationally infeasible, and by using salts.
+A birthday attack focuses on finding collisions. If the used hashing algorithm produces a lot of collisions, One can reduce the success of birthday attacks by using hashing algorithms with enough bits to make collisions computationally infeasible, and by using salts.
 
 #### 4.2.3 Rainbow-Table Attacks
 This attack utilizes tables of pre-computed hashes to cut out hash-calculation times.
