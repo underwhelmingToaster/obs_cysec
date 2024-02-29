@@ -10,7 +10,7 @@ Passive entity which provides information to subjects, e.g. files, DBs, services
 Active entity which accesses an object to receive information from or about an object.
 
 ### 1.3 Need-to-Know/Least Privilege
-This principle ensures that subjects only have access to data they need to work. Least Privilege relies on having a accurate Job Description in order to assign accurate priviledges. 
+This principle ensures that subjects only have access to data they need to work. Least Privilege relies on having a accurate Job Description in order to assign accurate priviledges.
 
 ## 2 Access Control Types
 ### 2.1 Preventive
@@ -92,6 +92,7 @@ An access control matrix is a table that includes subjects, objects, and assigne
 | Alice       | read, write | write     | -                        |
 | Bob         | -           | read      | append                   |
 | Process 294 | -           | -         | open, read, write, close |
+
 #### 3.5.4 Capability Table
 Same as Access Control Matrix, but focused on one service. Essentially the same as one collumn on the ACM.
 
@@ -119,3 +120,25 @@ This attack utilizes tables of pre-computed hashes to cut out hash-calculation t
 
 #### 4.2.4 Sniffer Attacks
 Using a sniffer to intercept network traffic containing classified information. Can be avoided by using secure transmission protocols, using One-Time passwords and establishing physical security in your network.
+
+#### 4.2.5 Social Engineering Attack
+Social Engineering Attack consist of hackers gaining the trust of an authorized person in order to gain access to objects in their domain.
+
+#### 4.2.6 Shoulder Surfing
+Hackers looking over the shoulder of someone to gain access to objects.
+
+#### 4.2.7 Phishing
+Phishing is a form of social engineering that attempts to trick users into giving up sensitive information, opening an attachment, or clicking a link.
+- Phishing emails are sent as spam, targeting users with the hope that some will respond.
+- Common access control attacks include Simple Phishing, asking users to respond with credentials.
+- More sophisticated phishing involves links to fake websites or infected attachments.
+- Attackers may exploit social media to tailor phishing emails based on relationships between individuals.
+
+##### 4.2.7.1 Whaling
+Phishing that targets senior or high-level executives such as chief executive officers (CEOs) and presidents within a company.
+
+#### 4.2.8 Spear Phishing
+Phishing that targets a specific group of users.
+
+#### 4.2.9 Vishing
+Using VOIP or Instant Messaging for Phishing.
