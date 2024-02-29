@@ -102,5 +102,20 @@ Content-Dependent Control grants subjects access based on the information an Obj
 Context-Dependent Control only grants Subject access to an Object after a certain context in the system has been reached with previous actions/events.
 
 ## 4 Access Control Attacks
+### 4.1 Access Aggregation Attack (passive/reconnaissance attack)
+Aggregating multiple pieces of non-sensitive information and aggregating it to sensitive information.
 
+### 4.2 Password attacks (brute-force)
+Trying out every possible combination of a password. Can be done against online accounts, or offline accounts if one can manage to steal a database.
 
+#### 4.2.1 Dictionary Attack
+Instead of randomly guessing passwords, a dictionary attack uses "commonly used passwords" databases and may also "one-up" passwords (for example "password" -> "pa5sword" -> one character changed) in this dictionary.
+
+#### 4.2.2 Birthday Attacks (brute-force)
+A birthday attack focuses on finding collisions. One can reduce the success of birthday attacks by using hashing algorithms with enough bits to make collisions computationally infeasible, and by using salts.
+
+#### 4.2.3 Rainbow-Table Attacks
+This attack utilizes tables of pre-computed hashes to cut out hash-calculation times.
+
+#### 4.2.4 Sniffer Attacks
+Using a sniffer to intercept network traffic containing classified information. Can be avoided by using secure transmission protocols, using One-Time passwords and establishing physical security in your network.
