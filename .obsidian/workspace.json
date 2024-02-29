@@ -4,46 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "368985cd5fa08b42",
+        "id": "2a51c0bb9ca71144",
         "type": "tabs",
         "children": [
           {
-            "id": "3a447fbe021805a1",
+            "id": "a55c749140330f09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Risk Management.md",
+                "file": "Access Control.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "59c61838b0a984db",
+            "id": "64e33809ecdd5e55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CIA Triad.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7f9a45b6c611a41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intellectual Property.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,9 +85,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Risk Management.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -125,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Risk Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +124,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Risk Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,16 +174,18 @@
       "graph:Open graph view": false
     }
   },
-  "active": "3a447fbe021805a1",
+  "active": "64e33809ecdd5e55",
   "lastOpenFiles": [
+    "Access Control.md",
+    "Intellectual Property.md",
+    "Risk Management.md",
+    "Privacy.md",
     "Tracing or hiding Sensitive Data.md",
     "Assets of an Organisation.md",
-    "Intellectual Property.md",
     "CIA Triad.md",
     "Data Classification.md",
     "Destroying Sensitive Data.md",
     "Threats.md",
-    "Risk Management.md",
     "Untitled"
   ]
 }

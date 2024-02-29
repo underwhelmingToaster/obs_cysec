@@ -35,3 +35,37 @@ There are two risk assessment methodologies
 $\text{SLE}=\text{AV} * \text{EF}$
 $\text{ALE}=\text{SLE}*\text{ARO}$
 $\text{Value of safeguard}=(\text{ALE before Safeguard}-\text{ALE after Safeguard})-\text{ACS}$
+
+## 3 Risk Handling
+### 3.1 Risk Reduction
+Implementation of safeguards or countermeasures
+
+### 3.2 Transferring Risk
+Placing the cost of loss onto another entity:
+- insurance
+- outsourcing
+
+### 3.3 Accepting Risk
+Acceptable if ACE costs rise above ALE ([[#2.2.1 Definitions|Negative Value of Safeguard]]). Requires a clearly written statement that indicates:
+- Why a safeguard was not implemented
+- Who is responsible for the decision
+- Who will be responsible for the loss if the risk is realized
+
+### 3.4 Risk deterrence
+Implementing methods which deter potential violators, e.g:
+- implementation of auditing
+- security cameras
+- security guards
+- warning banners
+- motion detectors
+- strong authentication
+- willingness to cooperate with authorities
+
+### 3.5 Risk Avoidance
+Selecting alternate options that have less associated risk than current/common option.
+
+### 3.6 Ignore Risk
+Not acceptable.
+
+## 4 Residual Risk
+The Risk that remains once countermeasures are implemented.
