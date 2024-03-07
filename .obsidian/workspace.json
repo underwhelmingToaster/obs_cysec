@@ -8,23 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a55c749140330f09",
+            "id": "917da0aa1a086869",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Access Control.md",
+                "file": "Diffie-Hellman Key-Exchange.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "64e33809ecdd5e55",
+            "id": "1c9b8de5d3f7c44f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "media/SubstitutionPermutationNetwork2.png"
+              }
             }
           }
         ]
@@ -73,8 +75,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "08767b542e8c6158",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Access Control.md"
+                "file": "Diffie-Hellman Key-Exchange.md"
               }
             }
           }
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Access Control.md",
+                "file": "Diffie-Hellman Key-Exchange.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Access Control.md",
+                "file": "Diffie-Hellman Key-Exchange.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,22 +175,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "60be8b5941b505c2",
+  "active": "917da0aa1a086869",
   "lastOpenFiles": [
-    "Access Control.md",
+    "media/SubstitutionPermutationNetwork2.png",
+    "Diffie-Hellman Key-Exchange.md",
+    "Symmetric Cryptography.md",
+    "Cryptography.md",
+    "Untitled",
+    "Data Classification.md",
+    "Destroying Sensitive Data.md",
     "Intellectual Property.md",
-    "Risk Management.md",
     "Privacy.md",
+    "Access Control.md",
+    "Risk Management.md",
+    "media",
+    "Collision Attack.md",
     "Tracing or hiding Sensitive Data.md",
     "Assets of an Organisation.md",
     "CIA Triad.md",
-    "Data Classification.md",
-    "Destroying Sensitive Data.md",
-    "Threats.md",
-    "Untitled"
+    "Threats.md"
   ]
 }
