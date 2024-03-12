@@ -4,9 +4,14 @@ Symmetric key algorithms rely on a “shared secret” key that is distributed t
 > **Pros:**
 > - Very fast
 > - Because AES is standardized, modern Processors often include an AES instruction set
-> **Cons:**
+>
+>**Cons:**
 > - To establish communication, the key must be exchanged using a secure channel (this can be done using [[Diffie-Hellman Key-Exchange]])
 > - does not implement nonrepudiation (here is no way to prove where a given message originated)
+
+> [!example] Examples of Symmetric Cryptography
+> - [[Diffie-Hellman Key-Exchange]]
+> - [[Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE)]]
 
 ## 1 Stream Ciphers
 Take an input of possibly endless size and convert it to ciphertext.

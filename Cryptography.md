@@ -1,6 +1,7 @@
-> [!NOTE] See also
-> - [[Symmetric Cryptography]]
-> - [[Asymmetric Cryptography]]
+> [!example] See also
+>  - [[Symmetric Cryptography]]
+>  - [[Asymmetric Cryptography]]
+>  - [[Hashing Functions]]
 
 ## 1 Definitions and Concepts
 ### 1.1 Cipher

@@ -11,6 +11,38 @@
             "id": "917da0aa1a086869",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "089bcd90847763f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hashing Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61566f9b38cb85e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "One-Way Trapdoor Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b358aecec84ec41",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Diffie-Hellman Key-Exchange.md",
@@ -18,18 +50,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1c9b8de5d3f7c44f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "media/SubstitutionPermutationNetwork2.png"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"## 4 Access Control Attacks\"",
+                "query": "hash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "08767b542e8c6158",
@@ -87,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diffie-Hellman Key-Exchange.md"
+                "file": "Hashing Functions.md"
               }
             }
           }
@@ -111,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Diffie-Hellman Key-Exchange.md",
+                "file": "Hashing Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Diffie-Hellman Key-Exchange.md",
+                "file": "Hashing Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,8 +185,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,12 +202,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "917da0aa1a086869",
+  "active": "089bcd90847763f5",
   "lastOpenFiles": [
-    "media/SubstitutionPermutationNetwork2.png",
+    "Cryptography.md",
+    "Hashing Functions.md",
+    "RSA (Rivest–Shamir–Adleman).md",
+    "One-Way Trapdoor Functions.md",
+    "Asymmetric Cryptography.md",
     "Diffie-Hellman Key-Exchange.md",
     "Symmetric Cryptography.md",
-    "Cryptography.md",
+    "Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE).md",
+    "Assets of an Organisation.md",
+    "CIA Triad.md",
+    "media/SubstitutionPermutationNetwork2.png",
+    "Tracing or hiding Sensitive Data.md",
+    "Threats.md",
     "Untitled",
     "Data Classification.md",
     "Destroying Sensitive Data.md",
@@ -193,10 +225,6 @@
     "Access Control.md",
     "Risk Management.md",
     "media",
-    "Collision Attack.md",
-    "Tracing or hiding Sensitive Data.md",
-    "Assets of an Organisation.md",
-    "CIA Triad.md",
-    "Threats.md"
+    "Collision Attack.md"
   ]
 }
