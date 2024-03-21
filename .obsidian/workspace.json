@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Certificate.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea494908120dfb65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "Symmetric Cryptography.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "AES",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "08767b542e8c6158",
@@ -90,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Symmetric Cryptography.md"
               }
             }
           }
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Symmetric Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Symmetric Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,22 +169,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ea494908120dfb65",
+  "active": "917da0aa1a086869",
   "lastOpenFiles": [
+    "Complete Cryptography Systems.md",
+    "Symmetric Cryptography.md",
     "Digital Certificate.md",
+    "Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE).md",
+    "media/Galois Counter Mode.png",
+    "Destroying Sensitive Data.md",
     "Untitled.md",
     "Cryptography.md",
+    "Asymmetric Cryptography.md",
     "media/Chain of trust.png",
     "media/Certificate20Chain20of20Trust-Sep-02-2020-08-15-34-33-PM.webp",
     "media/Chain of trust.webp",
-    "Asymmetric Cryptography.md",
     "Diffie-Hellman Key-Exchange.md",
     "Hashing Functions.md",
     "media/Private_key_signing.svg.png",
     "One-Way Trapdoor Functions.md",
     "RSA (Rivest–Shamir–Adleman).md",
-    "Symmetric Cryptography.md",
-    "Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE).md",
     "Assets of an Organisation.md",
     "CIA Triad.md",
     "media/SubstitutionPermutationNetwork2.png",
@@ -204,7 +195,6 @@
     "Threats.md",
     "Untitled",
     "Data Classification.md",
-    "Destroying Sensitive Data.md",
     "Intellectual Property.md",
     "Privacy.md",
     "Access Control.md",

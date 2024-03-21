@@ -40,5 +40,16 @@ Encrypting the nonce, but for each block the nonce is increased by a value of 1.
 - Standard for all encryptions (AES)
 - Can be parralelized
 
-## 3 AES
+##### 2.1.3.1 Galois Counter Mode
+An extension of Counter Mode which not only provides encryption, but also authentication by passing the XOR'ed result trough a hash. It also allows the addition of plaintext Additional Data.
+
+![[Galois Counter Mode.png]]
+
+### 2.2 AES
 #todo
+<https://www.youtube.com/watch?v=O4xNJsjtN6E>
+
+## 3 Stream Cypher
+### 3.1 ChaCha20
+#todo 
+https://www.youtube.com/watch?v=UeIpq-C-GSA
