@@ -21,5 +21,8 @@ Hash functions…
 - need to guarantee that given a message and its hash, we can’t find another message that hashes to the same thing
 
 ## 2 Use Cases
-- Digital Signature
-- Ensuring a message has not been altered
+### 2.1 Digital Signature
+[![Alice signs a message—"Hello Bob!"—by appending a signature computed from the message and her private key. Bob receives the message, including the signature, and using Alice's public key, verifies the authenticity of the signed message.](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Private_key_signing.svg/220px-Private_key_signing.svg.png)](https://en.wikipedia.org/wiki/File:Private_key_signing.svg)
+The sender of a message can sign a message by encrypting it with his private key and including this encryption after the unencrypted message. Recipients of this message can verify that a message was sent by the owner of the private key by using a _signature verifying algorithm_ which, given a message, a public key and signature, proves the authenticity of the message.
+
+### 2.2 Ensuring a message has not been altered
