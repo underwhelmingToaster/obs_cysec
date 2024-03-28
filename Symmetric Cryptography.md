@@ -51,5 +51,5 @@ An extension of Counter Mode which not only provides encryption, but also authen
 
 ## 3 Stream Cypher
 ### 3.1 ChaCha20
-#todo 
-https://www.youtube.com/watch?v=UeIpq-C-GSA
+#todo
+<https://www.youtube.com/watch?v=UeIpq-C-GSA>

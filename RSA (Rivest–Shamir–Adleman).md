@@ -1,3 +1,5 @@
+A encryption algorithm using a public key which encrypts a message and a private key to decrypt. Mostly used to share keys which are to be used in [[Symmetric Cryptography]].
+
 ## 1 Components
 - Public Components:
 	- **N**: A semi-prime (multiple of two Primes), usually very large (4096 bits)

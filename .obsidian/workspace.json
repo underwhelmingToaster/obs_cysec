@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "2a51c0bb9ca71144",
+        "id": "987b921e641726c0",
         "type": "tabs",
         "children": [
           {
-            "id": "917da0aa1a086869",
+            "id": "502ca6d492c4ad9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Symmetric Cryptography.md",
+                "file": "SSL & TLS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54aad2983ddb7caa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Complete Cryptography Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AES",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Symmetric Cryptography.md"
+                "file": "SSL & TLS.md"
               }
             }
           }
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Symmetric Cryptography.md",
+                "file": "SSL & TLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Symmetric Cryptography.md",
+                "file": "SSL & TLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,25 +182,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "917da0aa1a086869",
+  "active": "502ca6d492c4ad9d",
   "lastOpenFiles": [
-    "Complete Cryptography Systems.md",
-    "Symmetric Cryptography.md",
+    "RSA (Rivest–Shamir–Adleman).md",
+    "One-Way Trapdoor Functions.md",
+    "SSL & TLS.md",
     "Digital Certificate.md",
-    "Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE).md",
-    "media/Galois Counter Mode.png",
-    "Destroying Sensitive Data.md",
-    "Untitled.md",
+    "Complete Cryptography Systems.md",
     "Cryptography.md",
     "Asymmetric Cryptography.md",
+    "Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE).md",
+    "Diffie-Hellman Key-Exchange.md",
+    "Hashing Functions.md",
+    "Intellectual Property.md",
+    "Privacy.md",
+    "Untitled.md",
+    "Symmetric Cryptography.md",
+    "media/tls12-dsb 1.pcapng",
+    "media/tls12-dsb.pcapng",
+    "media/Galois Counter Mode.png",
+    "Destroying Sensitive Data.md",
     "media/Chain of trust.png",
     "media/Certificate20Chain20of20Trust-Sep-02-2020-08-15-34-33-PM.webp",
     "media/Chain of trust.webp",
-    "Diffie-Hellman Key-Exchange.md",
-    "Hashing Functions.md",
     "media/Private_key_signing.svg.png",
-    "One-Way Trapdoor Functions.md",
-    "RSA (Rivest–Shamir–Adleman).md",
     "Assets of an Organisation.md",
     "CIA Triad.md",
     "media/SubstitutionPermutationNetwork2.png",
@@ -195,8 +213,6 @@
     "Threats.md",
     "Untitled",
     "Data Classification.md",
-    "Intellectual Property.md",
-    "Privacy.md",
     "Access Control.md",
     "Risk Management.md",
     "media",

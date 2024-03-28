@@ -1,6 +1,7 @@
 ## 1 Definitions
 - **Message authentication code** (MAC): Short piece of information which authenticates and integrity-checks a message.
 - **Authenticated Encryption** (AE): Authenticated Encryption (AE) is an encryption approach that addresses confidentiality and authenticity at the same time.
+- **Perfect Forward Secrecy**: Assures that even if long-term secrets are compromised, session-keys are not compromised. This means that past sessions stay secure.
 
 ## 2 Types of Authenticated Encryption
  There are multiple approaches that aim to provide confidentiality and integrity at the same time.
