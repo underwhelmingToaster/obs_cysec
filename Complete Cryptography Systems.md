@@ -19,7 +19,7 @@ _Used by SSH_
 - Authenticate the message (plain text) with the second key
 
 ### 2.3 MAC-then-Encrypt
-_Used by SSL and TLS_
+_Used by [[SSL & TLS]]_
 - Generate two keys
 - Calculate the message authentication code using the first key
 - Encrypt the message plus the message authentication code using the second key

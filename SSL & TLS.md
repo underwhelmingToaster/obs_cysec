@@ -27,9 +27,9 @@ TLS is the primary mechanism for encryption for HTTP communication, that is call
 ### 3.2 Cipher Suites
 Each cipher suite has a name which declares what technologies are used for TLS. An example TLS cipher suite name would be:
 **TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256**
-- TLS: defines the protocol that this cipher suite is for. 
+- TLS: defines the protocol that this cipher suite is for.
 	- Usually TLS
-- ECDHE: indicates the key exchange algorithm being used 
+- ECDHE: indicates the key exchange algorithm being used
 	- RSA, DHE, ECDHE
 - RSA: authentication mechanism during the handshake
 	- RSA, DSA, ECDSA
@@ -39,6 +39,7 @@ Each cipher suite has a name which declares what technologies are used for TLS. 
 - GCM: type of encryption (cipher-block dependency and additional options)
 - SHA256: Hash function with digest size in bits, used to authenticate the message:
 	- MD5, SHA
+
 ### 3.3 Protocol
 TLS Packets are layered on top of the TCP Layer. Each TLS Record starts with a record header of 5 Bytes followed by a Record body, which is encrypted.
 
@@ -104,7 +105,7 @@ The server responds with
 - [[Digital Certificate]] from CA
 
 #### 3.4.4 Server Key Exchange
-The Server also sends parameters which set up a Key Exchange, in this case [[Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE)]].  This step can be omitted if using RSA, for example, because the servers public key is already contained in the certificate.
+The Server also sends parameters which set up a Key Exchange, in this case [[Elliptic Curve Diffie-Hellmann Ephemeral (ECDHE)]]. This step can be omitted if using RSA, for example, because the servers public key is already contained in the certificate.
 
 #### 3.4.5 Client Key Exchange
 The client sends their parameters for the Key Exchange.
@@ -141,12 +142,14 @@ In case the client has a session ID of a previous connection, the ID can be used
      deactivate A
      Note over A,B: Application Data can now be sent
  ```
+
 ### 3.6 Heartbeat Protocol
 A periodic signal to indicate to the sender that the recipient is still alive. Use is established during the Handshake if both parties declare that they support heartbeat protocol in the [[#3.4.1 Client Hello]]/[[#3.4.2 Server Hello]]
 
 The protocol works as follows:
 1. Client sends a heartbeat request with a payload message
 2. Server extracts message and sends same message back in heartbeat response message
-3. Client verifies that the received payload is the same as the sent one 
+3. Client verifies that the received payload is the same as the sent one
+
 #### 3.6.1 Heartbleed Exploit
-TLS Heartbleed exploits the functionality of the Heartbeat protocol: A heartbeat request contains information about its own `length`. An attacker is sending a malformed heartbeat message which contains only a small message, but declares itself as a big one using the `length` property. If the server does not check to make sure that  `length` is correct, it will send back as much information as is declared in `length`, filling the message from memory, thereby causing a memory leak from which confidential information can be read.
+TLS Heartbleed exploits the functionality of the Heartbeat protocol: A heartbeat request contains information about its own `length`. An attacker is sending a malformed heartbeat message which contains only a small message, but declares itself as a big one using the `length` property. If the server does not check to make sure that `length` is correct, it will send back as much information as is declared in `length`, filling the message from memory, thereby causing a memory leak from which confidential information can be read.
