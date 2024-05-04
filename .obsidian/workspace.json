@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "987b921e641726c0",
+        "id": "000b23d42d41d34b",
         "type": "tabs",
         "children": [
           {
-            "id": "502ca6d492c4ad9d",
+            "id": "8a8308db6d59121e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public Key Infrastructure.md",
+                "file": "OWASP Top 10.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ee6e93c127e0416b",
+            "id": "b192403a3694da8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Risk Management.md",
+                "file": "Hacking.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,8 +60,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PKI",
-                "matchingCase": true,
+                "query": "\"Request ",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -90,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Public Key Infrastructure.md"
+                "file": "OWASP Top 10.md"
               }
             }
           }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public Key Infrastructure.md",
+                "file": "OWASP Top 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Public Key Infrastructure.md",
+                "file": "OWASP Top 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,21 +182,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "502ca6d492c4ad9d",
+  "active": "8a8308db6d59121e",
   "lastOpenFiles": [
+    "Hacking.md",
+    "OWASP Top 10.md",
+    "media/dos attack types.png",
+    "Taken.md",
+    "Viruses.md",
+    "media/file injection.png",
+    "media/A-file-infector-virus-attacks-a-clean-file-a-by-attaching-a-small-program-to-it-b 1.png",
+    "Risk Management.md",
+    "Public Key Infrastructure.md",
     "Digital Certificate.md",
     "X.509.md",
     "Trust Service Provider.md",
     "CIA Triad.md",
     "SSL & TLS.md",
-    "Risk Management.md",
     "Assets of an Organisation.md",
     "Intellectual Property.md",
     "Threats.md",
     "Complete Cryptography Systems.md",
     "Access Control.md",
     "Privacy.md",
-    "Public Key Infrastructure.md",
     "RSA (Rivest–Shamir–Adleman).md",
     "One-Way Trapdoor Functions.md",
     "Cryptography.md",
@@ -214,10 +221,7 @@
     "media/Chain of trust.webp",
     "media/Private_key_signing.svg.png",
     "media/SubstitutionPermutationNetwork2.png",
-    "Tracing or hiding Sensitive Data.md",
     "Untitled",
-    "Data Classification.md",
-    "media",
-    "Collision Attack.md"
+    "media"
   ]
 }
